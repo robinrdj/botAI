@@ -4,8 +4,6 @@
   align-items: center;
   justify-content: center;
   background-color: #f3eafa;
-  /* height: 100vh; */
-  /* padding: 20px; */
 }
 
 .bot__ai__header {
@@ -21,7 +19,7 @@
 
 .new__chat__button,
 .past__conversations__button {
-  background-color: #9178d6;
+  background-color: #8c74cd;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -42,7 +40,7 @@
 
 .bot__ai__title {
   font-size: 24px;
-  color: #2d2d2d; /* Dark text color */
+  color: #2d2d2d;
   margin-bottom: 20px;
 }
 
@@ -72,7 +70,7 @@
 }
 
 .question__card:hover {
-  background-color: #d1c4e9;
+  background-color: #d1c3ea;
 }
 
 .bot__ai__input {
@@ -100,22 +98,22 @@
 }
 
 .ask__button {
-  background-color: #6051c1;
+  background-color: #5c4dba;
 }
 
 .save__button {
-  background-color: #4c3ba0;
+  background-color: #513fac;
 }
 
 .chat__container {
   display: flex;
   height: 100vh;
-  background-color: #e9d3f2;
+  background-color: #e0c7e9;
 }
 
 .chat__sidebar {
   width: 250px;
-  background-color: #e0c0f0;
+  background-color: #dcb8ee;
   padding: 20px;
 }
 
@@ -128,7 +126,7 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  background-color: #d9b3eb;
+  background-color: #d5afe7;
   padding: 20px;
 }
 

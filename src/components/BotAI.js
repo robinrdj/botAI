@@ -13,11 +13,7 @@ import './BotAI.css';
 
 
 function ReplyCard({ id,user, message, time, avatar, msgId, pastConversations }){
-  // useEffect(()=>{
-  //   console.log(id);
-  //   console.log(msgId);
-   
-  // },[])
+
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
@@ -219,16 +215,6 @@ const BotAI = () => {
   const handleInputChange=(e)=>{
      setInput(e.target.value);
   }
-
-
-  // const messages = [
-  //   { id: 1, user: "You", message: "Hi!", time: "10:33 AM", avatar: userImg },
-  //   { id: 2, user: "Soul AI", message: "Hi There. How can I assist you today?", time: "10:33 AM", avatar: homeImg  },
-  //   { id: 3, user: "You", message: "How are you today?", time: "10:34 AM", avatar: userImg },
-  //   { id: 4, user: "Soul AI", message: "As an AI Language Model, I don’t have the details", time: "10:34 AM", avatar: homeImg  },
-  //   { id: 5, user: "You", message: "How are you?", time: "10:35 AM", avatar: userImg},
-  // ];
-
 
   const [showPastConversations, setShowPastConversations] = useState(false);
 
